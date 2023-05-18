@@ -23,8 +23,8 @@
             <div class="list-group list-group-flush my-3">
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold ">Dashboard</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">General</a>
-                <a href="dash.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Eleves</a>
-                <a href="classe.html" class="list-group-item list-group-item-action bg-transparent second-text active">Gestion Classes</a>
+                <a href="index.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Eleves</a>
+                <a href="classe.php" class="list-group-item list-group-item-action bg-transparent second-text active">Gestion Classes</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Niveaux</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Matieres</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Evaluation</a>
@@ -110,7 +110,7 @@
                 </div>
 
                 <div class="row my-5">
-                    <h3 class="fs-4 mb-3">Liste des classes</h3>
+                    <h3 class="fs-4 mb-3">Liste des niveaux</h3>
                     <div class="col">
                         <table class="table bg-white rounded shadow-sm table-hover">
                             <thead>

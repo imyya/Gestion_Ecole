@@ -24,8 +24,8 @@
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold ">Dashboard</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">General</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">Gestion Eleves</a>
-                <a href="classe.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Classes</a>
-                <a href="niveau.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Niveaux</a>
+                <a href="classe.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Classes</a>
+                <a href="niveau.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Niveaux</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Matieres</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Evaluation</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Bulletins</a>
@@ -133,7 +133,7 @@
                                    <td>
                                     <div class="button-wrapper d-flex justify-content-end">
                                       <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                      <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                      <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                       <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                     </div>
                                   </td>
@@ -149,7 +149,7 @@
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
@@ -164,7 +164,7 @@
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
@@ -179,7 +179,7 @@
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
@@ -194,7 +194,7 @@
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
@@ -209,7 +209,7 @@
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
@@ -224,7 +224,7 @@
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="modify-student.html" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="modify-student.php" class="btn btn-warning btn-sm me-2">Modifier</a>
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
@@ -251,7 +251,7 @@
 
                       
                         <div class="mt-4 d-flex justify-content-center ">
-                            <a href="student-regist.html" class="btn btn-success">+ Ajouter</a>
+                            <a href="student-regist.php" class="btn btn-success">+ Ajouter</a>
                         </div>
 
                         
