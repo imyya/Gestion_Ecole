@@ -49,7 +49,7 @@
                 <label for="professeurPrincipal" class="form-label">Professeur principal</label>
                 <input type="text" class="form-control" id="professeurPrincipal" placeholder="Exemple : M. Dupont">
             </div>
-            <button type="submit" class="btn btn-primary">Ajouter la classe</button>
+            <button type="submit" class="btn btn-primary" style="background-color: #9b4e5f;" >Ajouter la classe</button>
         </form>
     </div>
 </body>

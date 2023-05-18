@@ -23,9 +23,9 @@
             <div class="list-group list-group-flush my-3">
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold ">Dashboard</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">General</a>
-                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Eleves</a>
+                <a href="dash.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Eleves</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">Gestion Classes</a>
-                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Niveaux</a>
+                <a href="niveau.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Niveaux</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Matieres</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Evaluation</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Bulletins</a>
@@ -169,7 +169,7 @@
                         </table>
                         
                         <div class="mt-4 d-flex justify-content-center">
-                            <a href="studregist.html" class="btn btn-success">+ Ajouter</a>
+                            <a href="class-regist.html" class="btn btn-success">+ Ajouter</a>
                         </div>
 
                         

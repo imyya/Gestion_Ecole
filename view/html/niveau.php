@@ -23,8 +23,8 @@
             <div class="list-group list-group-flush my-3">
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold ">Dashboard</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">General</a>
-                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">Gestion Eleves</a>
-                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Classes</a>
+                <a href="dash.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Eleves</a>
+                <a href="classe.html" class="list-group-item list-group-item-action bg-transparent second-text active">Gestion Classes</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Gestion Niveaux</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Matieres</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">Evaluation</a>
@@ -39,7 +39,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
-                    <h2 class="fs-2 m-0">Gestion des eleves</h2>
+                    <h2 class="fs-2 m-0">Gestion des niveaux</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -91,8 +91,8 @@
                     <div class="col-md-3">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
-                                <h3 class="fs-2">3899</h3>
-                                <p class="fs-5">Delivery</p>
+                                <h3 class="fs-2">30</h3>
+                                <p class="fs-5">Classes</p>
                             </div>
                             <i class="fas fa-truck fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
@@ -110,42 +110,26 @@
                 </div>
 
                 <div class="row my-5">
-                    <h3 class="fs-4 mb-3">Liste des eleves</h3>
+                    <h3 class="fs-4 mb-3">Liste des classes</h3>
                     <div class="col">
-                        <table class="table bg-white rounded shadow-sm  table-hover">
+                        <table class="table bg-white rounded shadow-sm table-hover">
                             <thead>
                                 <tr>
-                                    <th scope="col" width="50">#</th>
-                                    <th scope="col">Nom</th>
-                                    <th scope="col">Prenom</th>
-                                    <th scope="col">Data de naissance</th>
-                                    <th scope="col">Classe</th>
-                                    <th scope="col">  </th>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nom du niveau</th>
+                                    <th scope="col">Nombre de classes</th>
+                                    <th scope="col">Nombre total d'élèves</th>
+                                    <th scope="col">Nombre de professeurs</th>
+                                    <th scope="col"> </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>Bah</td>
-                                    <td>Yero</td>
-                                    <td>13/09/1999</td>
-                                   <td>Seconde S2</td>
-                                   <td>
-                                    <div class="button-wrapper d-flex justify-content-end">
-                                      <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                      <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
-                                      <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
-                                    </div>
-                                  </td>
-
-                                    
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Gael</td>
-                                    <td>Samira</td>
-                                    <td>11/04/2000</td>
-                                    <td>Seconde S1</td>
+                                    <td>Elementaire</td>
+                                    <td>18</td>
+                                    <td>255</td>
+                                    <td>20</td>
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
@@ -153,14 +137,26 @@
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
-    
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Secondaire Inférieure</td>
+                                    <td>12</td>
+                                    <td>387</td>
+                                    <td>30</td>
+                                    <td>
+                                        <div class="button-wrapper d-flex justify-content-end">
+                                          <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
+                                          <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
+                                          <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td>Zahra</td>
-                                    <td>Fatima</td>
-                                    <td>06/12/2015</td>
-                                    <td>CM1</td>
+                                    <td>Secondaire Superieure</td>
+                                    <td>7</td>
+                                    <td>125</td>
+                                    <td>28</td>
                                     <td>
                                         <div class="button-wrapper d-flex justify-content-end">
                                           <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
@@ -168,90 +164,12 @@
                                           <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
                                         </div>
                                     </td>
-    
                                 </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td>Cesar</td>
-                                    <td>Juan</td>
-                                    <td>03/09/2018</td>
-                                    <td>CE1</td>
-                                    <td>
-                                        <div class="button-wrapper d-flex justify-content-end">
-                                          <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
-                                          <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
-                                        </div>
-                                    </td>
-    
-                                </tr>
-                                <tr>
-                                    <th scope="row">5</th>
-                                    <td>Zahra</td>
-                                    <td>Fatima</td>
-                                    <td>03/11/2010</td>
-                                    <td>5em</td>
-                                    <td>
-                                        <div class="button-wrapper d-flex justify-content-end">
-                                          <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
-                                          <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
-                                        </div>
-                                    </td>
-    
-                                </tr>
-                                <tr>
-                                    <th scope="row">6</th>
-                                    <td>Zahra</td>
-                                    <td>Fatima</td>
-                                    <td>06/12/2015</td>
-                                    <td>CM1</td>
-                                    <td>
-                                        <div class="button-wrapper d-flex justify-content-end">
-                                          <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
-                                          <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
-                                        </div>
-                                    </td>
-    
-                                </tr>
-                                <tr>
-                                    <th scope="row">7</th>
-                                    <td>Zahra</td>
-                                    <td>Fatima</td>
-                                    <td>06/12/2015</td>
-                                    <td>CM1</td>
-                                    <td>
-                                        <div class="button-wrapper d-flex justify-content-end">
-                                          <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
-                                          <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
-                                        </div>
-                                    </td>
-    
-                                </tr>
-                                <tr>
-                                    <th scope="row">8</th>
-                                    <td>Zahra</td>
-                                    <td>Fatima</td>
-                                    <td>06/12/2015</td>
-                                    <td>CM1</td>
-                                    <td>
-                                        <div class="button-wrapper d-flex justify-content-end">
-                                          <a href="#" class="btn btn-primary btn-sm me-2">Voir détails</a>
-                                          <a href="#" class="btn btn-warning btn-sm me-2">Modifier</a>
-                                          <a href="#" class="btn btn-danger btn-sm">Supprimer</a>
-                                        </div>
-                                    </td>
-    
-                                </tr>
-                               
                             </tbody>
                         </table>
-
-                      
+                        
                         <div class="mt-4 d-flex justify-content-center">
-                            <a href="studregist.html" class="btn btn-success">+ Ajouter</a>
+                            <a href="#" class="btn btn-success">+ Ajouter</a>
                         </div>
 
                         

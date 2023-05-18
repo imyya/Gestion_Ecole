@@ -51,7 +51,7 @@
                     <option value="secondaire_superieur">Secondaire Supérieur</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-primary">Mettre à jour</button>
+            <button type="submit" class="btn btn-primary" style="background-color: #9b4e5f;">Mettre à jour</button>
         </form>
     </div>
 </body>
